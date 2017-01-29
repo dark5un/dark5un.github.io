@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "I am back!"
+date:   2017-01-29 15:11:53 +0000
+categories: misc
+---
+Finally. It was time. It has been 18+ years in software development and 14 programming languages professionally used. The time has come to focus.
+
+This will be my log on my daily adventures.
+
+Enjoy.
+P
