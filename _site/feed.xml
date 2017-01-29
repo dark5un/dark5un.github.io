@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-29T18:00:45+00:00</updated><id>http://localhost:4000//</id><title type="html">I am too old for this (not)</title><subtitle>Starting to focus on Ruby and RoR again. Some Swift on the side just because I  seem to like it a lot.
-</subtitle><entry><title type="html">I am back!</title><link href="http://localhost:4000/misc/2017/01/29/I-am-back.html" rel="alternate" type="text/html" title="I am back!" /><published>2017-01-29T15:11:53+00:00</published><updated>2017-01-29T15:11:53+00:00</updated><id>http://localhost:4000/misc/2017/01/29/I%20am%20back</id><content type="html" xml:base="http://localhost:4000/misc/2017/01/29/I-am-back.html">&lt;p&gt;Finally. It was time. It has been 18+ years in software development and 14 programming languages professionally used. The time has come to focus.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-29T18:33:35+00:00</updated><id>http://localhost:4000//</id><title type="html">I am too old for this (not)</title><subtitle>Starting to focus on Ruby and RoR again. Some Swift on the side just because I  seem to like it a lot.
+</subtitle><entry><title type="html">Use Jekyll they said!</title><link href="http://localhost:4000/github/jekyll/2017/01/29/github-pages-adventure.html" rel="alternate" type="text/html" title="Use Jekyll they said!" /><published>2017-01-29T18:12:00+00:00</published><updated>2017-01-29T18:12:00+00:00</updated><id>http://localhost:4000/github/jekyll/2017/01/29/github-pages-adventure</id><content type="html" xml:base="http://localhost:4000/github/jekyll/2017/01/29/github-pages-adventure.html">&lt;p&gt;For what is worth keeping a blog in &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; might sound easy. Posting pages in &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; might sound even easier. But its not.
+Bootstrapping this blog for example took me some time to figure out as I wanted to have everything included. The whole battery pack.
+So I picked up a bunch of plugins, check a nice theme and modified it a bit.
+Locally everything started to work fine.
+Then it began to fall apart.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I have to think small. I probably should use other platforms like medium to express. Well you cannot blame me for looking something closer to editor/git pair.&lt;/p&gt;
+
+&lt;p&gt;And there we are now.&lt;/p&gt;
+
+&lt;p&gt;Plain simple almost vanilla blog. For now.&lt;/p&gt;
+
+&lt;p&gt;Some &lt;a href=&quot;https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months&quot;&gt;nice guidance&lt;/a&gt; always found after a bunch of trials just to make Murphy’s law worth something.&lt;/p&gt;</content><summary type="html">For what is worth keeping a blog in Jekyll might sound easy. Posting pages in GitHub might sound even easier. But its not.
+Bootstrapping this blog for example took me some time to figure out as I wanted to have everything included. The whole battery pack.
+So I picked up a bunch of plugins, check a nice theme and modified it a bit.
+Locally everything started to work fine.
+Then it began to fall apart.</summary></entry><entry><title type="html">I am back!</title><link href="http://localhost:4000/misc/2017/01/29/I-am-back.html" rel="alternate" type="text/html" title="I am back!" /><published>2017-01-29T15:11:53+00:00</published><updated>2017-01-29T15:11:53+00:00</updated><id>http://localhost:4000/misc/2017/01/29/I%20am%20back</id><content type="html" xml:base="http://localhost:4000/misc/2017/01/29/I-am-back.html">&lt;p&gt;Finally. It was time. It has been 18+ years in software development and 14 programming languages professionally used. The time has come to focus.&lt;/p&gt;
 
 &lt;p&gt;This will be my log on my daily adventures.&lt;/p&gt;
 
