@@ -3,6 +3,7 @@ layout: post
 title:  "Challenge 1 - Java Web API"
 date:   2017-02-09 01:31:00 +0000
 categories: java web api
+comments: true
 ---
 Challenge? Well yes why not?
 

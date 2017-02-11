@@ -3,6 +3,7 @@ layout: post
 title:  "Use Jekyll they said!"
 date:   2017-01-29 18:12:00 +0000
 categories: github jekyll
+comments: true
 ---
 For what is worth keeping a blog in [Jekyll](https://jekyllrb.com) might sound easy. Posting pages in [GitHub](https://github.com) might sound even easier. But its not.
 Bootstrapping this blog for example took me some time to figure out as I wanted to have everything included. The whole battery pack.
