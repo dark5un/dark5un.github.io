@@ -2,12 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://dark5un.github.io
+title: I am too old for this (not)
+subtitle: Coding in your sleep is a bad thing.
+author: Panos Xynos
 simple_search: https://www.google.com/search
-description:
+description: > # this means to ignore newlines until "baseurl:"
+  Starting to focus on Ruby and RoR again. Some Swift on the side just because I 
+  seem to like it a lot.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +21,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: panagiotis.xinos@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -64,13 +66,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: dark5un
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: tehn00b
 twitter_tweet_button: true
 
 # Google +1
@@ -91,8 +93,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: dark5un-github-io
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
