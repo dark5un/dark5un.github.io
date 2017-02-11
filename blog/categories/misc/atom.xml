@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Misc | I am too old for this (not)]]></title>
+  <link href="http://dark5un.github.io/blog/categories/misc/atom.xml" rel="self"/>
+  <link href="http://dark5un.github.io/"/>
+  <updated>2017-02-11T15:20:35+00:00</updated>
+  <id>http://dark5un.github.io/</id>
+  <author>
+    <name><![CDATA[Panos Xynos]]></name>
+    <email><![CDATA[panagiotis.xinos@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I Am Back!]]></title>
+    <link href="http://dark5un.github.io/blog/2017/01/29/I%20am%20back/"/>
+    <updated>2017-01-29T15:11:53+00:00</updated>
+    <id>http://dark5un.github.io/blog/2017/01/29/I am back</id>
+    <content type="html"><![CDATA[<p>Finally. It was time. It has been 18+ years in software development and 14 programming languages professionally used. The time has come to focus.</p>
+
+<p>This will be my log on my daily adventures.</p>
+
+<p>Enjoy.
+P</p>
+]]></content>
+  </entry>
+  
+</feed>

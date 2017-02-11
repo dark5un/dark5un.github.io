@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Api | I am too old for this (not)]]></title>
+  <link href="http://dark5un.github.io/blog/categories/api/atom.xml" rel="self"/>
+  <link href="http://dark5un.github.io/"/>
+  <updated>2017-02-11T15:20:35+00:00</updated>
+  <id>http://dark5un.github.io/</id>
+  <author>
+    <name><![CDATA[Panos Xynos]]></name>
+    <email><![CDATA[panagiotis.xinos@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Challenge 1 - Java Web API]]></title>
+    <link href="http://dark5un.github.io/blog/2017/02/09/challenge1-java-api/"/>
+    <updated>2017-02-09T01:31:00+00:00</updated>
+    <id>http://dark5un.github.io/blog/2017/02/09/challenge1-java-api</id>
+    <content type="html"><![CDATA[<p>Challenge? Well yes why not?</p>
+
+<p>So lets start creating a Java API using the <a href="https://en.wikipedia.org/wiki/Leet">1337</a>est of the <a href="https://en.wikipedia.org/wiki/Leet">1337</a>est and as hardcore as possible! Always in a main stream fashion. (Don&rsquo;t ask me how I want to achieve this. I have no clue so far)</p>
+
+<p>Tools for the thing? Hmmm lets start with <a href="https://gradle.org/">Gradle</a>! Who cares about <a href="http://ant.apache.org/">Ant</a> anymore and lately <a href="https://maven.apache.org/">Maven</a> seems so 2k (put troll emoticon here).</p>
+
+<p>Ok Mr Gradle I would like a nice clean project for my app to run:</p>
+
+<pre><code class="bash">$ gradle init --type java-application --test-framework spock
+</code></pre>
+
+<p>Why <a href="http://spockframework.org">Spock</a> instead of <a href="http://testng.org">TestNG</a> (and why not <a href="http://junit.org">JUnit</a>)?</p>
+
+<p>Because Spock had enough love in its site and because it is a cool name. Ok <a href="http://www.groovy-lang.org">Groovy</a> is stupid easy to play with, that is why. And testing in Java sucks. (Yes I am doing group therapy for what I just said)</p>
+
+<p>Gradle init has finished and there is a basic folder structure. Look ma no hands! How 2017 this feels! But the Gradle people made it even better! They created a basic java app structure. And added <a href="https://github.com/google/guava">Google Guava</a> as a dependency!</p>
+
+<p>Why java-application type you said? Well I was thinking about <a href="https://projects.spring.io/spring-boot">Spring Boot</a> and felt so good to just start my app from command line. I can do it with <a href="http://expressjs.com">Node.js and Express</a> I can certainly do it with <a href="http://rubyonrails.org">Rails</a> so there you go. Java saw the light finally!</p>
+]]></content>
+  </entry>
+  
+</feed>

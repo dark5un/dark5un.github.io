@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Github | I am too old for this (not)]]></title>
+  <link href="http://dark5un.github.io/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://dark5un.github.io/"/>
+  <updated>2017-02-11T15:20:35+00:00</updated>
+  <id>http://dark5un.github.io/</id>
+  <author>
+    <name><![CDATA[Panos Xynos]]></name>
+    <email><![CDATA[panagiotis.xinos@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Use Jekyll They Said!]]></title>
+    <link href="http://dark5un.github.io/blog/2017/01/29/github-pages-adventure/"/>
+    <updated>2017-01-29T18:12:00+00:00</updated>
+    <id>http://dark5un.github.io/blog/2017/01/29/github-pages-adventure</id>
+    <content type="html"><![CDATA[<p>For what is worth keeping a blog in <a href="https://jekyllrb.com">Jekyll</a> might sound easy. Posting pages in <a href="https://github.com">GitHub</a> might sound even easier. But its not.
+Bootstrapping this blog for example took me some time to figure out as I wanted to have everything included. The whole battery pack.
+So I picked up a bunch of plugins, check a nice theme and modified it a bit.
+Locally everything started to work fine.
+Then it began to fall apart.</p>
+
+<p>Sometimes I have to think small. I probably should use other platforms like medium to express. Well you cannot blame me for looking something closer to editor/git pair.</p>
+
+<p>And there we are now.</p>
+
+<p>Plain simple almost vanilla blog. For now.</p>
+
+<p>Some <a href="https://github.com/blog/1992-eight-lessons-learned-hacking-on-github-pages-for-six-months">nice guidance</a> always found after a bunch of trials just to make Murphy&rsquo;s law worth something.</p>
+
+<p>(update 11/2/2017)
+Finally I used <a href="http://octopress.org/">Octopress</a>. Less hassle. Seriously.</p>
+]]></content>
+  </entry>
+  
+</feed>

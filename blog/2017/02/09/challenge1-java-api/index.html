@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Challenge 1 - Java Web API - I am too old for this (not)</title>
+  <meta name="author" content="Panos Xynos">
+
+  
+  <meta name="description" content="Challenge? Well yes why not? So lets start creating a Java API using the 1337est of the 1337est and as hardcore as possible! Always in a main stream &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://dark5un.github.io/blog/2017/02/09/challenge1-java-api/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="I am too old for this (not)" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">I am too old for this (not)</a></h1>
+  
+    <h2>Coding in your sleep is a bad thing.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="dark5un.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Challenge 1 - Java Web API</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-02-09T01:31:00+00:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>1:31 am</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://dark5un.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Challenge? Well yes why not?</p>
+
+<p>So lets start creating a Java API using the <a href="https://en.wikipedia.org/wiki/Leet">1337</a>est of the <a href="https://en.wikipedia.org/wiki/Leet">1337</a>est and as hardcore as possible! Always in a main stream fashion. (Don&rsquo;t ask me how I want to achieve this. I have no clue so far)</p>
+
+<p>Tools for the thing? Hmmm lets start with <a href="https://gradle.org/">Gradle</a>! Who cares about <a href="http://ant.apache.org/">Ant</a> anymore and lately <a href="https://maven.apache.org/">Maven</a> seems so 2k (put troll emoticon here).</p>
+
+<p>Ok Mr Gradle I would like a nice clean project for my app to run:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gradle init --type java-application --test-framework spock
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Why <a href="http://spockframework.org">Spock</a> instead of <a href="http://testng.org">TestNG</a> (and why not <a href="http://junit.org">JUnit</a>)?</p>
+
+<p>Because Spock had enough love in its site and because it is a cool name. Ok <a href="http://www.groovy-lang.org">Groovy</a> is stupid easy to play with, that is why. And testing in Java sucks. (Yes I am doing group therapy for what I just said)</p>
+
+<p>Gradle init has finished and there is a basic folder structure. Look ma no hands! How 2017 this feels! But the Gradle people made it even better! They created a basic java app structure. And added <a href="https://github.com/google/guava">Google Guava</a> as a dependency!</p>
+
+<p>Why java-application type you said? Well I was thinking about <a href="https://projects.spring.io/spring-boot">Spring Boot</a> and felt so good to just start my app from command line. I can do it with <a href="http://expressjs.com">Node.js and Express</a> I can certainly do it with <a href="http://rubyonrails.org">Rails</a> so there you go. Java saw the light finally!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Panos Xynos</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-02-09T01:31:00+00:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>1:31 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/api/'>api</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/web/'>web</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dark5un.github.io/blog/2017/02/09/challenge1-java-api/" data-via="tehn00b" data-counturl="http://dark5un.github.io/blog/2017/02/09/challenge1-java-api/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/01/29/github-pages-adventure/" title="Previous Post: Use Jekyll they said!">&laquo; Use Jekyll they said!</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/02/09/challenge1-java-api/">Challenge 1 - Java Web API</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/01/29/github-pages-adventure/">Use Jekyll They Said!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/01/29/I%20am%20back/">I Am Back!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/dark5un">@dark5un</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'dark5un',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Panos Xynos -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'dark5un-github-io';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
