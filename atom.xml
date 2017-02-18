@@ -4,7 +4,7 @@
   <title><![CDATA[I am too old for this (not)]]></title>
   <link href="http://dark5un.github.io/atom.xml" rel="self"/>
   <link href="http://dark5un.github.io/"/>
-  <updated>2017-02-13T22:44:20+00:00</updated>
+  <updated>2017-02-18T18:21:00+00:00</updated>
   <id>http://dark5un.github.io/</id>
   <author>
     <name><![CDATA[Panos Xynos]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WIP: Cassandra Query Language (CQL) IntelliJ Idea Plugin]]></title>
+    <link href="http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/"/>
+    <updated>2017-02-18T17:01:43+00:00</updated>
+    <id>http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin</id>
+    <content type="html"><![CDATA[<p>Working on <a href="http://cassandra.apache.org/doc/latest/cql/">Cassandra Query Language</a> with <a href="https://spring.io/">Spring</a> on <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a> is simple but I noticed that a plugin for the CQL syntax is missing. So I decided to build one.</p>
+
+<p>I am using an other plugin, <a href="https://github.com/intellij-rust/intellij-rust">intellij-rust</a>, as a guidline. I liked the way it was build. Also I could use the experience and who knows I might be able to contribute back in the future. It is build in Kotlin and sounds like a good excuse to use my polyglot skills again!</p>
+
+<p>As stated from the particular plugin:
+See the IDEA platform <a href="http://www.jetbrains.org/intellij/sdk/docs/">documentation</a>. Of a particular interest are
+the following sections:
+  * custom language <a href="http://www.jetbrains.org/intellij/sdk/docs/tutorials/custom_language_support_tutorial.html">tutorial</a>
+  * custom language support <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support.html">reference</a>.</p>
+
+<p>If you find any piece of SDK docs missing or unclear, do open an issue
+at <a href="https://youtrack.jetbrains.com/issues/IJSDK">YouTrack</a>. You can
+also <a href="https://github.com/JetBrains/intellij-sdk-docs/blob/master/CONTRIBUTING.md">contribute directly</a> to the plugin development docs.</p>
+
+<p>It&rsquo;s also very inspirational to browse existing plugins. Check out <a href="https://github.com/ignatov/intellij-erlang">Erlang</a> and
+<a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin">Go</a> plugins. There is also <a href="https://github.com/JetBrains/intellij-plugins">plugin repository</a> and, of course, <a href="https://github.com/JetBrains/kotlin">Kotlin plugin</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Challenge 1 - Java Web API]]></title>

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Java - I am too old for this (not)</title>
+  <title>WIP: Cassandra Query Language (CQL) IntelliJ Idea Plugin - I am too old for this (not)</title>
   <meta name="author" content="Panos Xynos">
 
   
-  <meta name="description" content="Category: java">
+  <meta name="description" content="Working on Cassandra Query Language with Spring on IntelliJ Idea is simple but I noticed that a plugin for the CQL syntax is missing. So I decided to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://dark5un.github.io/blog/categories/java/">
+  <link rel="canonical" href="http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="I am too old for this (not)" type="application/atom+xml">
@@ -64,36 +64,86 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Java</h1>
+    
+      <h1 class="entry-title">WIP: Cassandra Query Language (CQL) IntelliJ Idea Plugin</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-02-18T17:01:43+00:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>5:01 pm</span></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Working on <a href="http://cassandra.apache.org/doc/latest/cql/">Cassandra Query Language</a> with <a href="https://spring.io/">Spring</a> on <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a> is simple but I noticed that a plugin for the CQL syntax is missing. So I decided to build one.</p>
 
-  
-  <h2>2017</h2>
+<p>I am using an other plugin, <a href="https://github.com/intellij-rust/intellij-rust">intellij-rust</a>, as a guidline. I liked the way it was build. Also I could use the experience and who knows I might be able to contribute back in the future. It is build in Kotlin and sounds like a good excuse to use my polyglot skills again!</p>
 
-<article>
-  
-<h1><a href="/blog/2017/02/09/challenge1-java-api/">Challenge 1 - Java Web API</a></h1>
-<time datetime="2017-02-09T01:31:00+00:00" pubdate><span class='month'>Feb</span> <span class='day'>09</span> <span class='year'>2017</span></time>
+<p>As stated from the particular plugin:
+See the IDEA platform <a href="http://www.jetbrains.org/intellij/sdk/docs/">documentation</a>. Of a particular interest are
+the following sections:
+  * custom language <a href="http://www.jetbrains.org/intellij/sdk/docs/tutorials/custom_language_support_tutorial.html">tutorial</a>
+  * custom language support <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/custom_language_support.html">reference</a>.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/api/'>api</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/web/'>web</a></span>
-</footer>
+<p>If you find any piece of SDK docs missing or unclear, do open an issue
+at <a href="https://youtrack.jetbrains.com/issues/IJSDK">YouTrack</a>. You can
+also <a href="https://github.com/JetBrains/intellij-sdk-docs/blob/master/CONTRIBUTING.md">contribute directly</a> to the plugin development docs.</p>
 
-
-</article>
-
+<p>It&rsquo;s also very inspirational to browse existing plugins. Check out <a href="https://github.com/ignatov/intellij-erlang">Erlang</a> and
+<a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin">Go</a> plugins. There is also <a href="https://github.com/JetBrains/intellij-plugins">plugin repository</a> and, of course, <a href="https://github.com/JetBrains/kotlin">Kotlin plugin</a>.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Panos Xynos</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-02-18T17:01:43+00:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>5:01 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/" data-via="tehn00b" data-counturl="http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/02/09/challenge1-java-api/" title="Previous Post: Challenge 1 - Java Web API">&laquo; Challenge 1 - Java Web API</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -170,7 +220,10 @@
       var disqus_shortname = 'dark5un-github-blog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/';
+        var disqus_url = 'http://dark5un.github.io/blog/2017/02/18/wip-cassandra-query-language-cql-intellij-idea-plugin/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
